@@ -14,9 +14,10 @@
 
     <h2> Welcome <%= data %> </h2>
     <div class="menu">
-        <% stock.forEach(element => { %>
+        <% stock.forEach((element) => { %>
 
             <div class="stock">
+               <%= element.type %>
                <%= element.name %>
             </div>
 
